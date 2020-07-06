@@ -1,30 +1,3 @@
-
-## Project 1: Exploratory Data Analysis (EDA)
-
-### Back Story
-
-An email from a potential client:
-
-> Joan & Alice -
->
-> It was great to meet with you and chat at the event where we recently met and had a nice chat. We’d love to take some next steps to see if working together is something that would make sense for both parties.
->
-> As we mentioned, we are interested in harnessing the power of data and analytics to optimize the effectiveness of our street team work, which is a significant portion of our fundraising efforts.
->
-> WomenTechWomenYes (WTWY) has an annual gala at the beginning of the summer each year. As we are new and inclusive organization, we try to do double duty with the gala both to fill our event space with individuals passionate about increasing the participation of women in technology, and to concurrently build awareness and reach.
->
-> To this end we place street teams at entrances to subway stations. The street teams collect email addresses and those who sign up are sent free tickets to our gala.
->
-> Where we’d like to solicit your engagement is to use MTA subway data, which as I’m sure you know is available freely from the city, to help us optimize the placement of our street teams, such that we can gather the most signatures, ideally from those who will attend the gala and contribute to our cause.
->
-> The ball is in your court now—do you think this is something that would be feasible for your group? From there we can explore what kind of an engagement would make sense for all of us.
->
-> Best,
->
-> Karrine and Dahlia
->
-> WTWY International
-
 ## Objective:
 Optimize placement of street teams around MTA train stations. 
 
@@ -32,8 +5,33 @@ Optimize placement of street teams around MTA train stations.
 - [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) 
 - [NYCHealth COVID Data](https://github.com/nychealth/coronavirus-data)
 
+### Code:
+
+2 files, DataFunctionsFinal and Maps_2
+
+DataFunctionsFinal deals with data gathering and processing. Maps_2 deals with graphing data onto maps.
+
 ## DataFunctionsFinal
-[DataFunctionsFinal](https://github.com/adsweeney/metis_project_1/blob/master/DataFunctionsFinal.ipynb) contains functions that cleans, processes data for usage, and generates plots.  
+[DataFunctionsFinal](https://github.com/adsweeney/metis_project_1/blob/master/DataFunctionsFinal.ipynb) contains functions that cleans, processes data for usage, and generates plots.
+
+# Has functions 
+
+clean : takes in list of weeks and returns cleaned dataframe with data from MTA
+
+get_counts_entry/exit : adds columns that track deltas for exits. Also has a timecop function that keeps track of temporal inconsistencies.
+
+turnstile : function that calls other functions in order to return a workable dataframe in order to be plotted
+
+# Has separate code
+'top'  - code to find and list the top targets based on traffic
+
+'translate' - code that translates "Remote Unite" codes into station names, based on the frequency of the station name showing up in relation to the Remote Unit.
+
+'prettyplot' - a set of code to create extra visualizations and changed scales for the dataframe stored in memory after running turnstile
+
+'font visualizer' - code to run in Jupyter notebook to check what fonts are avaiable
+
+and other debug code
 
 ## Maps 2
 [Maps 2](https://github.com/adsweeney/metis_project_1/blob/master/Maps%202.ipynb) contains code for mapping stations and COVID choropleth map. 
