@@ -49,7 +49,7 @@ An email from a potential client:
  * Organized project repository
 
 ### DataFunctionsFinal
-[DataFunctionsFinal](https://github.com/adsweeney/metis_project_1/blob/master/DataFunctionsFinal.ipynb) contains functions that cleans, and processes data for usage. 
+[DataFunctionsFinal](https://github.com/adsweeney/metis_project_1/blob/master/DataFunctionsFinal.ipynb) contains functions that cleans, processes data for usage, and generates plots.  
 
 ### Maps 2
 [Maps 2](https://github.com/adsweeney/metis_project_1/blob/master/Maps%202.ipynb) contains code for mapping stations and COVID choropleth map. 
