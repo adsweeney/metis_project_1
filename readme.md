@@ -1,11 +1,11 @@
 ## Objective:
 Optimize placement of street teams around MTA train stations. 
 
-### Data:
+## Data:
 - [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) 
 - [NYCHealth COVID Data](https://github.com/nychealth/coronavirus-data)
 
-### Code:
+# Code:
 
 2 files, DataFunctionsFinal and Maps_2
 
@@ -14,7 +14,7 @@ DataFunctionsFinal deals with data gathering and processing. Maps_2 deals with g
 ## DataFunctionsFinal
 [DataFunctionsFinal](https://github.com/adsweeney/metis_project_1/blob/master/DataFunctionsFinal.ipynb) contains functions that cleans, processes data for usage, and generates plots.
 
-# Has functions 
+### Has functions 
 
 clean : takes in list of weeks and returns cleaned dataframe with data from MTA
 
@@ -22,7 +22,7 @@ get_counts_entry/exit : adds columns that track deltas for exits. Also has a tim
 
 turnstile : function that calls other functions in order to return a workable dataframe in order to be plotted
 
-# Has separate code
+### Has separate code
 'top'  - code to find and list the top targets based on traffic
 
 'translate' - code that translates "Remote Unite" codes into station names, based on the frequency of the station name showing up in relation to the Remote Unit.
