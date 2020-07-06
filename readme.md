@@ -48,5 +48,8 @@ An email from a potential client:
  * Group presentation (4-5 people) (6 minutes)
  * Organized project repository
 
+### DataFunctionsFinal
+[DataFunctionsFinal](https://github.com/adsweeney/metis_project_1/blob/master/DataFunctionsFinal.ipynb) contains functions that cleans, and processes data for usage. 
 
-We are very excited to see what you will learn and do for Project 1!
+### Maps 2
+[Maps 2](https://github.com/adsweeney/metis_project_1/blob/master/Maps%202.ipynb) contains code for mapping stations and COVID choropleth map. 
