@@ -25,31 +25,15 @@ An email from a potential client:
 >
 > WTWY International
 
+## Objective:
+Optimize placement of street teams around MTA train stations. 
 
+### Data:
+- [MTA Turnstile Data](http://web.mta.info/developers/turnstile.html) 
+- [NYCHealth COVID Data](https://github.com/nychealth/coronavirus-data)
 
-
-#### Data:
-
- * MTA Data (Google it!)
- * Additional data sources welcome!
-  
-#### Skills:
-
- * `python` and `pandas`
- * visualizations via Matplotlib & seaborn
-
-#### Analysis:
-
- * Exploratory Data Analysis
-
-
-#### Deliverable/communication:
-
- * Group presentation (4-5 people) (6 minutes)
- * Organized project repository
-
-### DataFunctionsFinal
+## DataFunctionsFinal
 [DataFunctionsFinal](https://github.com/adsweeney/metis_project_1/blob/master/DataFunctionsFinal.ipynb) contains functions that cleans, processes data for usage, and generates plots.  
 
-### Maps 2
+## Maps 2
 [Maps 2](https://github.com/adsweeney/metis_project_1/blob/master/Maps%202.ipynb) contains code for mapping stations and COVID choropleth map. 
